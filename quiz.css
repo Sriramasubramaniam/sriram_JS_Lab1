@@ -1,0 +1,32 @@
+.mainContainer{
+    display: flex;
+    justify-content: center;
+}
+.quizContainer{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid green;
+    width:400px;
+    padding:24px;
+}
+.headingContainer{
+    font-size: 36px;
+    text-align: center;
+    color: white;
+    background-color: darkgreen;
+}
+.buttonGrid{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+button{
+    margin:10px;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    background-color: lightskyblue;
+    cursor: pointer;
+}
+button:hover{
+    background-color: blue;
+}
